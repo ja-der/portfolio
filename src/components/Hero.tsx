@@ -26,7 +26,7 @@ export default function Hero() {
           transition={{ delay: 0.3, duration: 0.6 }}
           className="text-lg text-gray-400 font-light tracking-wide"
         >
-          Hi! My name is
+          Hi! 👋 My name is
         </motion.p>
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
@@ -46,7 +46,7 @@ export default function Hero() {
           transition={{ delay: 0.8, duration: 0.6 }}
           className="mt-6 text-xl text-gray-300 max-w-lg mx-auto leading-relaxed font-light"
         >
-          I build stuff.
+          I build stuff with code.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -90,7 +90,6 @@ export default function Hero() {
         className="mt-16 text-gray-400 z-10"
       >
         <div className="flex flex-col items-center gap-2">
-          <span className="text-sm font-light tracking-wider">SCROLL</span>
           <span className="text-3xl">↓</span>
         </div>
       </motion.div>

@@ -4,24 +4,31 @@ import { motion } from "motion/react";
 
 const projects = [
   {
-    title: "Focus Timer Operator",
-    image: "/focus-operator.png",
+    title: "Machine Learning Model",
+    image: "/projects/oncovision.png",
     description:
-      "Kubernetes Operator to manage Pomodoro sessions for deep work.",
-    tech: ["Go", "Kubernetes", "CRDs"],
+      "Trained machine learning model to predict malignant vs benign cancer from imputted images. (91% correct prediction rate)",
+    tech: ["Python", "Jupyter", "Tensorflow", "Keras", "Matprolib"],
   },
   {
-    title: "Dev Portfolio",
-    image: "/portfolio-preview.png",
+    title: "Leaflet",
+    image: "/projects/leaflet.png",
     description:
-      "Responsive portfolio built with Next.js, TailwindCSS, Framer Motion.",
-    tech: ["Next.js", "Tailwind", "Framer Motion"],
+      "Responsive book discovery and tracking for current reads, wishlist, favourties, ranking, search, and infinite scroll recomendations as your personal virtual library",
+    tech: [
+      "Next.js",
+      "Tailwind",
+      "TypeScript",
+      "Express.js",
+      "MongoDB",
+      "Axios",
+    ],
   },
   {
-    title: "Cloud Metrics Dashboard",
-    image: "/cloud-dashboard.png",
-    description: "Real-time monitoring dashboard using React and AWS Lambda.",
-    tech: ["React", "AWS", "Chart.js"],
+    title: "Airbnb Inspired Rentals App",
+    image: "/projects/bunkd.png",
+    description: "Real-time rental books across the world anytime anywhere.",
+    tech: ["Next", "Node", "Cognito", "ShadCN", "PostgreSQL", "Mapbox"],
   },
 ];
 

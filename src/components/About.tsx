@@ -18,10 +18,9 @@ export default function About() {
       >
         <h2 className="text-4xl sm:text-5xl font-bold mb-8 relative">
           About Me
-          <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-purple-500 to-green-500 rounded-full"></div>
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-8 mt-12">
+        <div className="items-center justify-items-center mt-12">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -29,26 +28,33 @@ export default function About() {
             viewport={{ once: true }}
             className="text-left"
           >
-            <p className="text-lg text-gray-300 leading-relaxed font-light">
-              I'm a passionate fullstack developer and cloud enthusiast who
-              thrives at the intersection of software engineering and DevOps. I
-              love building scalable systems, intuitive UIs, and tools that make
-              life simpler.
+            <p className="text-lg text-center text-gray-300 leading-relaxed font-light">
+              I’m a passionate and aspiring software engineer looking into new
+              tech such as cloud and AI/ML. I enjoy problem solving, and
+              collaborating to build solutions with a meaningful impact. With
+              hands-on experience in enterprise and fast-paced R&D startup style
+              environments, i bring both speed and an organized structure to my
+              work. I pride myself in being a strong teammate, builder, and
+              problem-solver. I am a strong believer of continuous learning, and
+              never staying stagnant with my skill sets, there will always be
+              something new to learn or an old skill to touch up on.
             </p>
           </motion.div>
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
             viewport={{ once: true }}
             className="text-left"
           >
-            <p className="text-lg text-gray-300 leading-relaxed font-light">
-              With hands-on experience in startups and enterprise teams, I bring
-              both speed and structure to projects. My goal is to keep leveling
-              up as a builder, teammate, and problem-solver.
-            </p>
-          </motion.div>
+            <p className="text-lg text-gray-300 leading-relaxed font-light"></p>
+          </motion.div> */}
+        </div>
+        <div className="py-10">
+          <h3 className="bg-blue-900/20 border-l-4 border-gray-200 pl-4 py-2 rounded-md font-semibold text-lg">
+            💡 The art challenges the technology, and the technology inspires
+            the art
+          </h3>
         </div>
       </motion.div>
     </section>
