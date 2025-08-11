@@ -15,7 +15,7 @@ export default function Footer() {
           viewport={{ once: true }}
           className="text-2xl font-bold text-white mb-4 relative"
         >
-          <span className="relative">Let's connect!</span>
+          <span className="relative">Let&apos;s connect!</span>
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

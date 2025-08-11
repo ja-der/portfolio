@@ -4,10 +4,8 @@ import { motion } from "framer-motion";
 import {
   FaPython,
   FaJava,
-  FaJsSquare,
   FaReact,
   FaDocker,
-  FaGitAlt,
   FaLinux,
   FaNodeJs,
 } from "react-icons/fa";
@@ -16,7 +14,6 @@ import {
   SiGoland,
   SiKubernetes,
   SiHelm,
-  SiJenkins,
   SiAmazon,
   SiPostgresql,
   SiMongodb,
